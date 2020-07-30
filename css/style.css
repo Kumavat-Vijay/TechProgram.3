@@ -1,0 +1,268 @@
+html{
+	scroll-behavior: smooth;
+	}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top:0;
+	z-index: 10;
+	transition: 0.8s ease;
+}
+.navbar{
+	background-image: linear-gradient(to right,#000,#000);
+	padding: 0px;
+}
+.navbar-brand{
+	color: #fff!important;
+	font-weight: 800; 
+	font-family: serif;
+	transition: 0.6s ease;
+}
+.navbar-brand:hover{
+	color: #ffff00  !important; 
+}
+.navbar-nav li{
+	padding: 0  10px;
+	transition: 0.6s ease;
+}
+.navbar-nav li a{
+	color: dimgray!important;
+	font-weight: 500;
+	text-align: left;
+	transition: 0.6s ease;
+}
+.navbar-nav li a:hover{
+	color: #ffff00!important;
+}
+.dropdown-menu a:hover{
+	background-color: #000!important;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+	transition: 0.6s ease;
+}
+.fa-bars:hover{
+	color: #ffff00!important;
+}
+.navbar-toggler{
+	outline: none!important;
+
+}
+   
+
+
+/*------------------------------------banner section---------------------------------------*/
+#banner{
+	background-image: linear-gradient(to right,dimgray,darkgray);
+	padding-top: 5%;
+	transition: 0.6s ease;
+}
+.promo-title{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 100px;
+	font-family: serif;
+	color: #fff;
+	transition: 0.6s ease;
+}
+.promo-title:hover{
+	color: #000;
+}
+.promo{
+	font-family: serif;
+	font-size: 18px;
+	color: #fff;
+	transition: 0.6s ease;
+}
+.promo:hover{
+	color:#000;
+}
+#banner a:hover{
+	color: #000;
+}
+#banner a{
+	text-decoration: none;
+	font-family: serif;
+	transition: 0.6s ease;
+}
+#banner .btn-primary{
+	font-size: 18px;
+	border-radius: 8px;
+	padding: 8px 20px;
+	color: #000;
+	background-color: #fff;
+	transition: 0.6s ease;
+}
+#banner .btn-primary:hover{
+	color: #000;
+	background-color:#1E90FF;
+}
+#banner img:hover{
+	background-color: #000;
+}
+
+
+     /*-------------------------------Services section---------------------------*/
+#services{
+	background-image: linear-gradient(to right,dimgray,darkgray);
+	padding-top: 5%;
+	padding: 80px 0;
+	transition: 0.6s ease;
+}
+#services h3{
+	font-family: serif;	
+	margin:50px;
+	color: #fff;
+	font-size: 27px;
+	transition: 0.6s ease;
+}
+#services h3:hover{
+	color: #000;
+}
+.col-md-12 h3{
+	padding: 20px;
+	margin: 20px;
+	color: #fff;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: serif;
+	transition: 0.6s ease;
+}
+#services .col-md-12 p{
+	font-family: serif;
+	font-size: 17px;
+	color: #fff;
+	transition: 0.6s ease;
+}
+.col-md-12 h3:hover{
+	color: #000;
+}
+.col-md-12 h5{
+	font-size: 20px;
+	color: #fff;
+	font-family: serif;
+	transition: 0.6s ease;
+}
+.col-md-12 h5:hover{
+	color: #000;
+}
+#services p:hover{
+	color: #000;
+}
+.col-md-12 p{
+	font-size: 16px;
+	color: #fff;
+	font-family: serif;
+	transition: 0.6s ease;
+}
+.row{
+	font-family: serif;
+	font-size: 15px;
+	color: #fff;
+	transition: 0.6s ease;
+}
+#services .row .col-md-4:hover{
+	color: #000;
+}
+#services h6{
+	color: #000;
+	font-family: serif;
+	transition: 0.6s ease;
+}
+#services hr{
+	border-top: 2.5px solid black;
+	transition: 0.6s ease;
+}
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	bottom: 40px;
+	right: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+	transition: 0.6s ease;
+}
+.gotopbtn:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+
+/*------------------------------------------------------------------footer section---------------------------------------------*/
+#footer {
+	background-color: #000;
+	color: #fff;
+	margin: 2px 2px;
+	height: 820px;
+	font-family: serif;
+	padding: 20px;
+}
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 15px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right,dimgray,darkgray);
+	transition: 0.6s
+	font-size: 18px;
+	transition: 0.6s ease;
+}
+.footer-box p{
+	font-size: 14px;
+}
+.footer-box p:hover{
+	color: #00BFFF;
+}
+#footer h5:hover{
+	color: #00BFFF;
+}
+
+.footer-box .form-control{
+	box-shadow: none!important;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 3px;	
+	max-width: 250px;
+	transition: 0.6s ease;
+}
+.footer-box .btn-primary{
+	box-shadow: none!important;
+	border: none;
+	border-radius: 3px;
+	margin-top: 25px;
+	max-width: 250px;
+	background-image: linear-gradient(to right,dimgray,darkgray);
+	transition: 0.6s ease;
+}
+#footer .container hr{
+	background-color: #fff;
+	border-width: 2.5px;
+	transition: 0.6s ease;
+}
+.copyright:hover{
+	color: #00BFFF;
+}
+.copyright{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+	transition: 0.6s ease;
+}
